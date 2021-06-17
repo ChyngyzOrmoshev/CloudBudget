@@ -1,0 +1,37 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(213, 32, 71, 0.8)), to(rgba(238, 61, 27, 0.8))) no-repeat, #c4c4c4 url(/images/Rectangle.png) no-repeat 100% 0;
+  background: -webkit-linear-gradient(left, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%) no-repeat, #c4c4c4 url(/images/Rectangle.png) no-repeat 100% 0;
+  background: -o-linear-gradient(left, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%) no-repeat, #c4c4c4 url(/images/Rectangle.png) no-repeat 100% 0;
+  background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%) no-repeat, #c4c4c4 url(/images/Rectangle.png) no-repeat 100% 0;
+}
+
+.header .container {
+  max-width: 1120px;
+}
+
+.hero__h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 86px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 140px;
+  text-align: center;
+}
+
+.hero__p {
+  width: 540px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+  color: #FFFFFF;
+  text-align: center;
+}
